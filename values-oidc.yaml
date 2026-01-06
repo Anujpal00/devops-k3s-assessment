@@ -1,0 +1,9 @@
+# OIDC configuration used during assessment
+oidc:
+  clientId: "test"
+  clientSecret: ""
+  issuer: "https://<YOUR_DOMAIN_HERE>/auth/realms/hyperplane/.well-known/openid-configuration"
+  scopes:
+    - openid
+    - profile
+    - email
